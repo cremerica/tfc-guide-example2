@@ -3,7 +3,7 @@
 
 variable "region" {
   description = "AWS region"
-  default     = "us-east-2"
+  default     = "us-west-1"
 }
 
 variable "instance_type" {
@@ -13,6 +13,5 @@ variable "instance_type" {
 
 variable "instance_name" {
   description = "EC2 instance name"
-  default     = "My Instance"
+  default     = "myOtherInstance"
 }
-
